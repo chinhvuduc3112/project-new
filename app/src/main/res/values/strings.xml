@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Spray IoT</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_actuator_set_time">Chỉnh thời gian</string>
+    <string name="action_actuator_set_conditions">Điều kiện hoạt động</string>
+    <string name="action_update_info">Sửa thông tin</string>
+    <string name="action_detail_info">Chi tiết</string>
+    <string name="action_create_area">Thêm mới khu vực</string>
+    <string name="action_add_node">Thêm mới Node</string>
+    <string name="action_delete_info">Xóa thông tin</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="sensor">Cảm biến</string>
+    <string name="actuator">Thực thi</string>
+    <string name="statistics">Thống kê</string>
+    <string name="info">Thông tin</string>
+    <string name="device_type">Loại thiết bị</string>
+    <string name="device_type_add">Thêm mới loại thiết bị</string>
+
+    <string name="humidity">Độ ẩm</string>
+    <string name="land_humidity">Độ ẩm đất</string>
+    <string name="temperature">Nhiệt độ</string>
+    <string name="sun">Ánh sáng</string>
+    <string name="nulls">N/A</string>
+    <string name="cloudiness">Khả năng mưa</string>
+    <string name="city_name">Tên thành phố</string>
+
+
+    <string name="drawer_header_text">Vũ Đức Chinh</string>
+    <string name="nav_item_general_management">Quản lý chung</string>
+    <string name="nav_item_account_management">Quản lý tài khoản</string>
+    <string name="nav_item_area_management">Khu vực</string>
+    <string name="nav_item_actuator">Thiết bị thực thi</string>
+    <string name="nav_item_node_sensor">Node cảm biến</string>
+    <string name="nav_item_weather">Thời tiết</string>
+    <string name="nav_item_device_type">Loại thiết bị</string>
+    <string name="nav_item_group_condition">Điều kiện thực thi</string>
+    <string name="nav_item_signout">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login_name">Email hoặc số điện thoại</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_forgot_password">Quên mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_sreach">Tìm kiếm</string>
+    <string name="btn_update">Cập nhật</string>
+    <string name="btn_submit">Xem</string>
+    <string name="text_deviceNode_list">Danh sách cảm biến</string>
+
+    <string name="info_name">Tên</string>
+    <string name="info_describe">Mô tả</string>
+    <string name="info_area">Khu vực</string>
+    <string name="info_node">Ghi chú</string>
+    <string name="info_x">Tung độ</string>
+    <string name="info_y">Vị độ</string>
+    <string name="type_device">Loại thiết bị</string>
+    <string name="type_sensor">Loại cảm biến</string>
+
+    <string name="toast_add_area_successful">Thêm khu vực thành công.</string>
+    <string name="toast_add_area_fail">Thêm khu vực thất bại.</string>
+    <string name="toast_add_node_successful">Thêm node cảm biến thành công.</string>
+    <string name="toast_add_node_fail">Thêm node cảm biến thất bại.</string>
+    <string name="toast_add_device_node_successful">Thêm cảm biến thành công.</string>
+    <string name="toast_add_device_node_fail">Thêm cảm biến thất bại.</string>
+    <string name="toast_add_device_successful">Thêm thiết bị thành công.</string>
+    <string name="toast_add_device_fail">Thêm thiết bị thất bại.</string>
+    <string name="toast_add_device_type_successful">Thêm loại thiết bị thành công.</string>
+    <string name="toast_add_device_type_fail">Thêm loại thiết bị thất bại.</string>
+    <string name="toast_add_info_successful">Thêm thông tin thành công.</string>
+    <string name="toast_add_info_fail">Thêm thông tin thất bại.</string>
+
+    <string name="toast_update_device_node_successful">Sửa cảm biến thành công.</string>
+    <string name="toast_update_device_node_fail">Sửa cảm biến thất bại.</string>
+    <string name="toast_update_device_type_successful">Sửa loại thiết bị thành công.</string>
+    <string name="toast_update_device_type_fail">Sửa loại thiết bị thất bại.</string>
+    <string name="toast_update_device_successful">Sửa thiết bị thành công.</string>
+    <string name="toast_update_device_fail">Sửa thiết bị thất bại.</string>
+    <string name="toast_update_info_successful">Sửa thông tin thành công.</string>
+    <string name="toast_update_info_fail">Sửa thông tin thất bại.</string>
+
+    <string name="toast_delete_device_node_successful">Xóa cảm biến thành công.</string>
+    <string name="toast_delete_device_node_fail">Xóa cảm biến thất bại.</string>
+    <string name="toast_delete_device_type_successful">Xóa loại thiết bị thành công.</string>
+    <string name="toast_delete_device_type_fail">Xóa loại thiết bị thất bại.</string>
+    <string name="toast_delete_device_successful">Xóa thiết bị thành công.</string>
+    <string name="toast_delete_device_fail">Xóa thiết bị thất bại.</string>
+
+    <string name="toast_update_area_successful">Sửa thông tin thành công.</string>
+    <string name="toast_update_area_fail">Sửa thông tin thất bại.</string>
+    <string name="action_update_info_succesful">Sửa thông tin thành công</string>
+    <string name="toast_warning_miss_day">Xin lỗi! Bạn chưa chọn ngày.</string>
+    <string name="toast_warning_miss_deviceNodeId">Xin lỗi! Bạn chưa chọn loại dữ liệu.</string>
+    <string name="toast_warning_wrong_type">Xin lỗi! Bạn chưa chọn loại biểu đồ cần xem.</string>
+    <string name="toast_warning_null_deviceNodeId">         Xin lỗi!\n Node bạn chọn không có loại cảm biến này.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

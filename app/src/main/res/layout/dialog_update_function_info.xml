@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/margin_medium">
+
+    <TextView
+        android:id="@+id/txt_function_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vLine1"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/info_name"
+        android:textColor="@color/navigationBar"
+        android:textSize="@dimen/txt_medium"/>
+
+    <EditText
+        android:id="@+id/edit_function_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_function_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/error_label_spacing"
+        android:hint="@string/nulls"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/txt_medium"/>
+
+    <TextView
+        android:id="@+id/txt_function_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_function_name"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/info_describe"
+        android:textColor="@color/navigationBar"
+        android:textSize="@dimen/txt_medium"/>
+
+    <EditText
+        android:id="@+id/edit_function_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_function_describe"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:gravity="top|left"
+        android:hint="@string/nulls"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="10"
+        android:minLines="3"
+        android:scrollbars="vertical"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/txt_medium"/>
+
+    <TextView
+        android:id="@+id/txt_actuator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_function_describe"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="Thiết bị thực thi"
+        android:textColor="@color/navigationBar"
+        android:textSize="@dimen/txt_medium"/>
+
+    <TextView
+        android:id="@+id/edit_actuator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_actuator"
+        android:layout_marginRight="@dimen/error_label_spacing"
+        android:layout_toLeftOf="@+id/btn_actuator"
+        android:hint="@string/nulls"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/txt_medium"/>
+
+    <ImageView
+        android:id="@+id/btn_actuator"
+        android:layout_width="@dimen/tab_padding_bottom"
+        android:layout_height="@dimen/tab_padding_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edit_function_describe"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/pencil_edit_button"/>
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner_list_actuator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/edit_function_describe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        app:ms_hint="Danh sách khu vực"
+        android:visibility="gone"/>
+
+</RelativeLayout>
